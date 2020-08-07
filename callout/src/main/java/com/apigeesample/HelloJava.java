@@ -18,7 +18,7 @@ public class HelloJava implements Execution {
 					messageContext.getMessage().setContent("Hello, " + name + "!");
 					messageContext.getMessage().removeHeader("username");
 			} else {
-					messageContext.getMessage().setContent("Hello, Guest!");
+					messageContext.getMessage().setContent("Hello, whatever!");
 			}
             
             return ExecutionResult.SUCCESS;
